@@ -46,6 +46,11 @@ After the repository is cloned, go inside of the repository directory and instal
 cd ng2-admin-core
 npm install
 ```
+Run gulp **dotnet restore** to restore packages
+
+```
+dotnet restore
+```
 
 Then run gulp **webpack** task
 
